@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Anurag Mukherjee">
+    <meta name="description" content="This Web Page contains our contact details">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="main.css" type="text/css">
+    
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="page1.html">Home</a>
+                </li>
+                <li>
+                    <a href="page1.html#about">About ITS</a>
+                </li>
+                <li>
+                    <a href="page1.html#menu">Our Menu</a>
+                </li>
+                <li>
+                    <a href="Hours.html">Store Hours</a>
+                </li>
+            </ul>
+        </nav>
+        <figure>
+            <img src="img/tacos_close_up_400x260.png" alt="Our Tacos">
+            <figcaption><strong><abbr title="Intuit Taco Shop">ITS</abbr></strong> Special Tacos</figcaption>
+        </figure>
+        <hr>
+    </header>
+    <main>
+        <h2>Our Contact Form</h2>
+        <form action="https://httpbin.org/get" method="get">
+            <fieldset>
+                <legend><strong>Drop A Message!!</strong></legend>
+                <p>
+                    <label for="name"><strong>Name: </strong></label>
+                    <input type="text" name="name" id="name" placeholder="your name" autocomplete="on" required>
+                </p>
+                <p>
+                    <label for="name"><strong>Email: </strong></label>
+                    <input type="email" name="mail" id="mail" placeholder="your email" autocomplete="on" required>
+                </p>
+            
+                <label for="message"><strong>Your Message::</strong></label>
+                <br>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here!!"></textarea>
+            </fieldset>
+            <button type="submit"><strong>Send</strong></button>
+            <button type="reset"><strong>Reset</strong></button>
+        </form>
+        <hr>
+        <h2>Our Location</h2>
+        <address>
+            555 Taco Temptation Lane, Suite T <br> Kansas City, MO 55555-5555 
+        </address>
+        <p><strong>Phone: </strong><a href="tel:+1 4573748593">457-374-8593</a></p>
+        <a href="#">Back To Top</a>
+    </main>
+    <footer>
+        <hr>
+        <p><strong>Copyright</strong> &copy; The Intuit Taco Shop</p>
+    </footer>
+</body>
+</html>
